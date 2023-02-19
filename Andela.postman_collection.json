@@ -1,0 +1,214 @@
+{
+	"info": {
+		"_postman_id": "5a42b0c3-31b6-43b2-9e25-9262b7525d23",
+		"name": "Andela",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18448036"
+	},
+	"item": [
+		{
+			"name": "Upload New Epaper",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/epaper",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"epaper"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find Epaper By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/epaper/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"epaper",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Not Found Epaper By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/epaper/133",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"epaper",
+						"133"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Epaper By Id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/epaper/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"epaper",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Epaper By Id Not Found",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/epaper/13",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"epaper",
+						"13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filter Epaper",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/epaper?width=1000&width=2000&filename=name&dpi=300&newspapername=name",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"epaper"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "size",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "width",
+							"value": "1000"
+						},
+						{
+							"key": "width",
+							"value": "2000"
+						},
+						{
+							"key": "filename",
+							"value": "name"
+						},
+						{
+							"key": "dpi",
+							"value": "300"
+						},
+						{
+							"key": "newspapername",
+							"value": "name"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Paginated Epapers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/epaper?width=1000&width=2000&filename=name&dpi=300&newspapername=name",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"epaper"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "2",
+							"disabled": true
+						},
+						{
+							"key": "size",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "width",
+							"value": "1000"
+						},
+						{
+							"key": "width",
+							"value": "2000"
+						},
+						{
+							"key": "filename",
+							"value": "name"
+						},
+						{
+							"key": "dpi",
+							"value": "300"
+						},
+						{
+							"key": "newspapername",
+							"value": "name"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
