@@ -1,0 +1,15 @@
+INSERT INTO epaper (id, dpi, file_name, height, newspaper_name, upload_time, width) VALUES (1, 100, 'filename_1.xml', 1000, 'newspapername_1', '2023-02-13 02:16:18.773000+00:00', 1200);
+INSERT INTO epaper (id, dpi, file_name, height, newspaper_name, upload_time, width) VALUES (2, 200, 'filename_2.xml', 1100, 'newspapername_2', '2023-02-14 02:16:18.773000+00:00', 1300);
+INSERT INTO epaper (id, dpi, file_name, height, newspaper_name, upload_time, width) VALUES (3, 300, 'filename_3.xml', 1200, 'newspapername_3', '2023-02-15 02:16:18.773000+00:00', 1400);
+INSERT INTO epaper (id, dpi, file_name, height, newspaper_name, upload_time, width) VALUES (4, 400, 'filename_4.xml', 1300, 'newspapername_4', '2023-02-16 02:16:18.773000+00:00', 1500);
+INSERT INTO epaper (id, dpi, file_name, height, newspaper_name, upload_time, width) VALUES (5, 500, 'filename_5.xml', 1400, 'newspapername_5', '2023-02-17 02:16:18.773000+00:00', 1600);
+INSERT INTO epaper (id, dpi, file_name, height, newspaper_name, upload_time, width) VALUES (6, 600, 'filename_6.xml', 1500, 'newspapername_6', '2023-02-18 02:16:18.773000+00:00', 1700);
+INSERT INTO epaper (id, dpi, file_name, height, newspaper_name, upload_time, width) VALUES (7, 700, 'filename_7.xml', 1600, 'newspapername_7', '2023-02-19 02:16:18.773000+00:00', 1800);
+INSERT INTO epaper (id, dpi, file_name, height, newspaper_name, upload_time, width) VALUES (8, 800, 'filename_8.xml', 1700, 'newspapername_8', '2023-02-20 02:16:18.773000+00:00', 1900);
+INSERT INTO epaper (id, dpi, file_name, height, newspaper_name, upload_time, width) VALUES (9, 900, 'filename_9.xml', 1800, 'newspapername_9', '2023-02-21 02:16:18.773000+00:00', 2000);
+INSERT INTO epaper (id, dpi, file_name, height, newspaper_name, upload_time, width) VALUES (10, 1000, 'filename_10.xml', 1900, 'newspapername_10', '2023-02-22 02:16:18.773000+00:00', 2100);
+INSERT INTO epaper (id, dpi, file_name, height, newspaper_name, upload_time, width) VALUES (11, 1100, 'filename_11.xml', 2000, 'newspapername_11', '2023-02-23 02:16:18.773000+00:00', 2200);
+INSERT INTO epaper (id, dpi, file_name, height, newspaper_name, upload_time, width) VALUES (12, 1200, 'filename_12.xml', 2100, 'newspapername_12', '2023-02-24 02:16:18.773000+00:00', 2300);
+INSERT INTO epaper (id, dpi, file_name, height, newspaper_name, upload_time, width) VALUES (13, 1300, 'filename_13.xml', 2200, 'newspapername_13', '2023-02-25 02:16:18.773000+00:00', 2400);
+INSERT INTO epaper (id, dpi, file_name, height, newspaper_name, upload_time, width) VALUES (14, 1400, 'filename_14.xml', 2300, 'newspapername_14', '2023-02-26 02:16:18.773000+00:00', 2500);
+INSERT INTO epaper (id, dpi, file_name, height, newspaper_name, upload_time, width) VALUES (15, 1500, 'filename_15.xml', 2400, 'newspapername_15', '2023-02-27 02:16:18.773000+00:00', 2600);
